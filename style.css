@@ -1,0 +1,49 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #003366;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #006699;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #0077CC;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #005EA6;
+}
+
+#userMessage {
+    color: #0099CC;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "adobe-learning-manager-api",
+  "version": "1.0.0",
+  "description": "Testing ALM API",
+  "main": "index.js",
+  "scripts": {
+    "test": "Adobe Learning Manager Loading...."
+  },
+  "author": "Louis Conley",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

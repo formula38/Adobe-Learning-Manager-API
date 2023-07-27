@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>ADOBE LEARNING MANAGER</h1>
-        <h2>Let's Get a List of All Current Users</h2>
-        <button type="button" class="btn btn-primary" onclick="getUsers()">Users</button>
-        <user id="userList"></user>
-    </div>
-    <script src="index.js"></script>
+<div class="container">
+    <h1>ADOBE LEARNING MANAGER</h1>
+    <h2>Enter Your Email Address:</h2>
+    <input type="text" id="emailInput" placeholder="example@example.com">
+    <button type="button" class="btn btn-primary" onclick="getUsers()">submit</button>
+    <div id="userList"></div>
+</div>
+<script src="index.js"></script>
 </body>
 </html>

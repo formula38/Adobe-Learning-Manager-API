@@ -1,22 +1,25 @@
 async function getUsers() {
     try {
-        const response = await fetch('https://learningmanager.adobe.com/primeapi/v2/users/mrtakata%40ucdavis.edu/accounts?onlyActive=true&socialEnabledAccounts=false');
+        const emailInput = document.getElementById('emailInput');
+        const email = emailInput.value;
+        const encodedEmail = encodeURIComponent(email); // Encode the email address
 
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
+        const apiUrl = `https://learningmanager.adobe.com/primeapi/v2/users/${encodedEmail}/accounts?onlyActive=true&socialEnabledAccounts=false`;
 
+        const response = await fetch(apiUrl);
         const data = await response.json();
 
         const userListElement = document.getElementById('userList');
         userListElement.innerHTML = ''; // Clear existing user list
 
-        data.forEach(user => {
-            const name = user.attributes.subdomain;
+        data.data.forEach(user => {
+            const acctId = user.id;
+            const badge = user.attributes.logoUrl;
 
-            const userDiv = document.createElement('user');
+            const userDiv = document.createElement('div');
             userDiv.innerHTML = `
-                <h3>SubDomain: ${name}</h3>
+                <h4>Account ID: ${acctId}</h4>
+                <img src="${badge}">
                 <hr>
             `;
 

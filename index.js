@@ -16,7 +16,7 @@ async function getUsers() {
             // If the API response does not contain any data (user not found), show "No User Found" message and wrong turn sign image
             const userDiv = document.createElement('div');
             userDiv.innerHTML = `
-                <h2>No User Found!</h2>
+                <h2 style="text-align: center">No User Found!</h2>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdjqr8xggw3YpL6bXFgBObvp46dYhBwfrLGA&usqp=CAU" class="wrong-turn-sign-image">
             `;
             userListElement.appendChild(userDiv);

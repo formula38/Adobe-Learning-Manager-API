@@ -9,20 +9,22 @@ body {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     color: #0077CC;
     font-size: 32px;
     font-weight: bold;
-    text-align: center;
+    text-align: center; /* Center the H1 tag */
 }
 
 h2 {
     color: #0077CC;
     font-size: 24px;
     margin-top: 20px;
-    text-align: center;
 }
 
 .input-container {

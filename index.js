@@ -1,6 +1,6 @@
 async function getUsers() {
     try {
-        const response = await fetch('https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id');
+        const response = await fetch('https://learningmanager.adobe.com/primeapi/v2/users/mrtakata%40ucdavis.edu/accounts?onlyActive=true&socialEnabledAccounts=false');
 
         const responseData = await response.text();
         console.log('API Response:', responseData);
@@ -11,15 +11,11 @@ async function getUsers() {
         userListElement.innerHTML = ''; // Clear existing user list
 
         data.data.forEach(user => {
-            const name = user.attributes.name;
-            const email = user.attributes.email;
-            const profile = user.attributes.profile;
+            const name = user.attributes.subdomain;
 
-            const userDiv = document.createElement('div');
+            const userDiv = document.createElement('user');
             userDiv.innerHTML = `
-                <h3>Name: ${name}</h3>
-                <p>Email: ${email}</p>
-                <p>Profile: ${profile}</p>
+                <h3>SubDomain: ${name}</h3>
                 <hr>
             `;
 

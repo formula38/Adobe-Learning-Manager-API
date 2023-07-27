@@ -61,3 +61,8 @@ h2 {
 .button-primary:hover {
     background-color: #005EA6;
 }
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}

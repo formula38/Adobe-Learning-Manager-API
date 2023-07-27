@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ef3aae-03ed-44bb-a05b-91a78a71b1ac" name="Changes" comment="HTML, CSS, JS updates">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +27,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2T5CMI9miqbcseRANEj4wxHbs4o" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -55,6 +61,8 @@
       <updated>1690323505628</updated>
       <workItem from="1690323507301" duration="4165000" />
       <workItem from="1690412991403" duration="5481000" />
+      <workItem from="1690489999209" duration="72000" />
+      <workItem from="1690490093361" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="Back to basics bc pages cant handle servers yet">
       <option name="closed" value="true" />

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="85ef3aae-03ed-44bb-a05b-91a78a71b1ac" name="Changes" comment="HTML, CSS, JS updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2T5CMI9miqbcseRANEj4wxHbs4o" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -52,7 +58,11 @@
       <option name="presentableId" value="Default" />
       <updated>1690323505628</updated>
       <workItem from="1690323507301" duration="4165000" />
-      <workItem from="1690412991403" duration="6471000" />
+      <workItem from="1690412991403" duration="5481000" />
+      <workItem from="1690489999209" duration="72000" />
+      <workItem from="1690490093361" duration="2035000" />
+      <workItem from="1690492319437" duration="129000" />
+      <workItem from="1690548971218" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="Back to basics bc pages cant handle servers yet">
       <option name="closed" value="true" />
@@ -126,15 +136,7 @@
       <option name="project" value="LOCAL" />
       <updated>1690418201188</updated>
     </task>
-    <task id="LOCAL-00010" summary="HTML, CSS, JS updates">
-      <option name="closed" value="true" />
-      <created>1690418501423</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1690418501423</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

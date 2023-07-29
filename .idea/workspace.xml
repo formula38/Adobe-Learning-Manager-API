@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="85ef3aae-03ed-44bb-a05b-91a78a71b1ac" name="Changes" comment="HTML, CSS, JS updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -146,6 +143,6 @@
     <MESSAGE value="Back to basics bc pages cant handle servers yet" />
     <MESSAGE value="Adding index.html" />
     <MESSAGE value="HTML, CSS, JS updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML, CSS, JS updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
